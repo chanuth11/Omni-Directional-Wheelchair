@@ -268,23 +268,25 @@ _Figure 1: Wheelchair basketball player demonstrating the challenge of simultane
 | Criteria                 | Weight | Ball Drive | Segway  | Mecanum | Track System |
 | ------------------------ | ------ | ---------- | ------- | ------- | ------------ |
 | Hands-Free Operation     | 25%    | 9          | 8       | 9       | 7            |
-| Non-Interfering Controls | 20%    | 9          | 8       | 8       | 7            |
-| Responsive Gameplay      | 20%    | 9          | 7       | 9       | 6            |
-| Equipment Compatibility  | 15%    | 8          | 9       | 7       | 8            |
-| Safety Operation         | 10%    | 7          | 9       | 8       | 9            |
+| Non-Interfering Controls | 20%    | 9          | 7       | 8       | 7            |
+| Design Complexity        | 20%    | 7          | 6       | 5       | 8            |
+| Inherent Stability       | 15%    | 8          | 9       | 7       | 9            |
+| Safety Operation         | 10%    | 8          | 9       | 8       | 9            |
 | Intuitive Operation      | 5%     | 9          | 8       | 7       | 8            |
 | Full Mobility Range      | 5%     | 10         | 6       | 10      | 6            |
-| **Weighted Score**       |        | **8.6**    | **7.7** | **8.3** | **7.1**      |
+| **Weighted Score**       |        | **8.3**    | **7.5** | **7.7** | **7.7**      |
 
 **Weighting Justification:**
 
-- **Hands-Free Operation (25%)**: Primary requirement for sports applications
-- **Non-Interfering Controls (20%)**: Critical for equipment handling and gameplay
-- **Responsive Gameplay (20%)**: Essential for competitive sports performance
-- **Equipment Compatibility (15%)**: Important for practical sports integration
-- **Safety Operation (10%)**: Fundamental requirement for user protection
-- **Intuitive Operation (5%)**: Important for user adoption and training
-- **Full Mobility Range (5%)**: Desired but secondary to core functionality
+| Criteria                 | Weight | Importance                                      | Rationale                                                                  |
+| ------------------------ | ------ | ----------------------------------------------- | -------------------------------------------------------------------------- |
+| Hands-Free Operation     | 25%    | Primary requirement for sports applications     | Enables simultaneous equipment handling during gameplay                    |
+| Non-Interfering Controls | 20%    | Critical for equipment handling and gameplay    | Control method must not distract from sports performance                   |
+| Design Complexity        | 20%    | Essential for manufacturability and maintenance | Simpler designs reduce fabrication costs and improve reliability           |
+| Inherent Stability       | 15%    | Important for safety and user confidence        | Natural stability reduces control system complexity and power requirements |
+| Safety Operation         | 10%    | Fundamental requirement for user protection     | System must maintain stability during collisions and aggressive movements  |
+| Intuitive Operation      | 5%     | Important for user adoption and training        | Natural control methods reduce learning curve and improve user experience  |
+| Full Mobility Range      | 5%     | Desired but secondary to core functionality     | Omni-directional movement provides competitive advantage in sports         |
 
 ### Preliminary Design Selection
 
@@ -292,11 +294,11 @@ _Figure 1: Wheelchair basketball player demonstrating the challenge of simultane
 
 **Justification:**
 
-- **Highest Weighted Score (8.6/10)**: Superior performance across all evaluation criteria
+- **Highest Weighted Score (8.3/10)**: Superior performance across all evaluation criteria
 - **True 360° Movement**: Essential for sports applications requiring omni-directional mobility
 - **Intuitive Control**: Body weight shifting provides natural, hands-free operation
+- **Balanced Complexity**: Manageable design complexity with innovative functionality
 - **Equipment Compatibility**: Minimal external protrusions maximize sports equipment accessibility
-- **Responsive Performance**: Direct mechanical control enables dynamic gameplay requirements
 - **Innovation Potential**: Offers unique advantages over existing wheelchair technologies
 
 ### Figure 2: Preliminary Design - CAD Rendering
