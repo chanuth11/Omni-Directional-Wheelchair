@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[22, 21, 681, 735]</P>
+  <Block BlockType="Reference" Name="Ball X1" SID="288">
+    <PortCounts out="1"/>
+    <P Name="Position">[20, 182, 50, 208]</P>
+    <P Name="ZOrder">467</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b1.x.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball X2" SID="291">
+    <PortCounts out="1"/>
+    <P Name="Position">[240, 182, 270, 208]</P>
+    <P Name="ZOrder">470</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b2.x.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball X3" SID="294">
+    <PortCounts out="1"/>
+    <P Name="Position">[240, 27, 270, 53]</P>
+    <P Name="ZOrder">473</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b3.x.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball X4" SID="258">
+    <PortCounts out="1"/>
+    <P Name="Position">[20, 27, 50, 53]</P>
+    <P Name="ZOrder">460</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b4.x.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Y1" SID="289">
+    <PortCounts out="1"/>
+    <P Name="Position">[20, 227, 50, 253]</P>
+    <P Name="ZOrder">468</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b1.y.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Y2" SID="292">
+    <PortCounts out="1"/>
+    <P Name="Position">[240, 227, 270, 253]</P>
+    <P Name="ZOrder">471</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b2.y.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Y3" SID="295">
+    <PortCounts out="1"/>
+    <P Name="Position">[240, 72, 270, 98]</P>
+    <P Name="ZOrder">474</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b3.y.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Y4" SID="286">
+    <PortCounts out="1"/>
+    <P Name="Position">[20, 72, 50, 98]</P>
+    <P Name="ZOrder">465</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b4.y.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Z1" SID="290">
+    <PortCounts out="1"/>
+    <P Name="Position">[20, 272, 50, 298]</P>
+    <P Name="ZOrder">469</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b1.z.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Z2" SID="293">
+    <PortCounts out="1"/>
+    <P Name="Position">[240, 272, 270, 298]</P>
+    <P Name="ZOrder">472</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b2.z.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Z3" SID="296">
+    <PortCounts out="1"/>
+    <P Name="Position">[240, 117, 270, 143]</P>
+    <P Name="ZOrder">475</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b3.z.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Ball Z4" SID="287">
+    <PortCounts out="1"/>
+    <P Name="Position">[20, 117, 50, 143]</P>
+    <P Name="ZOrder">466</P>
+    <P Name="LibraryVersion">7.6</P>
+    <P Name="SourceBlock">simulink/Sources/Repeating
+Sequence
+Stair</P>
+    <P Name="SourceType">Repeating Sequence Stair</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="OutValues">ballInput.b4.z.&apos;*ballInput.mag</P>
+      <P Name="tsamp">ballInput.period</P>
+      <P Name="OutMin">[]</P>
+      <P Name="OutMax">[]</P>
+      <P Name="OutDataTypeStr">double</P>
+      <P Name="OutputDataTypeScalingMode">double</P>
+      <P Name="OutDataType">fixdt(0,8)</P>
+      <P Name="ConRadixGroup">Best Precision: Vector-wise</P>
+      <P Name="OutScaling">2^-12</P>
+      <P Name="LockScale">off</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Goto" Name="Goto" SID="192">
+    <P Name="Position">[120, 230, 195, 250]</P>
+    <P Name="ZOrder">435</P>
+    <P Name="ShowName">off</P>
+    <P Name="GotoTag">Ball1xyz</P>
+    <P Name="TagVisibility">global</P>
+  </Block>
+  <Block BlockType="Goto" Name="Goto1" SID="251">
+    <P Name="Position">[345, 230, 420, 250]</P>
+    <P Name="ZOrder">451</P>
+    <P Name="ShowName">off</P>
+    <P Name="GotoTag">Ball2xyz</P>
+    <P Name="TagVisibility">global</P>
+  </Block>
+  <Block BlockType="Goto" Name="Goto2" SID="256">
+    <P Name="Position">[345, 75, 420, 95]</P>
+    <P Name="ZOrder">456</P>
+    <P Name="ShowName">off</P>
+    <P Name="GotoTag">Ball3xyz</P>
+    <P Name="TagVisibility">global</P>
+  </Block>
+  <Block BlockType="Goto" Name="Goto4" SID="261">
+    <P Name="Position">[120, 75, 195, 95]</P>
+    <P Name="ZOrder">461</P>
+    <P Name="ShowName">off</P>
+    <P Name="GotoTag">Ball4xyz</P>
+    <P Name="TagVisibility">global</P>
+  </Block>
+  <Block BlockType="Mux" Name="Mux" SID="205">
+    <PortCounts in="3" out="1"/>
+    <P Name="Position">[85, 175, 90, 305]</P>
+    <P Name="ZOrder">448</P>
+    <P Name="ShowName">off</P>
+    <P Name="Inputs">3</P>
+    <P Name="DisplayOption">bar</P>
+  </Block>
+  <Block BlockType="Mux" Name="Mux1" SID="252">
+    <PortCounts in="3" out="1"/>
+    <P Name="Position">[310, 175, 315, 305]</P>
+    <P Name="ZOrder">454</P>
+    <P Name="ShowName">off</P>
+    <P Name="Inputs">3</P>
+    <P Name="DisplayOption">bar</P>
+  </Block>
+  <Block BlockType="Mux" Name="Mux2" SID="257">
+    <PortCounts in="3" out="1"/>
+    <P Name="Position">[310, 20, 315, 150]</P>
+    <P Name="ZOrder">459</P>
+    <P Name="ShowName">off</P>
+    <P Name="Inputs">3</P>
+    <P Name="DisplayOption">bar</P>
+  </Block>
+  <Block BlockType="Mux" Name="Mux3" SID="262">
+    <PortCounts in="3" out="1"/>
+    <P Name="Position">[85, 20, 90, 150]</P>
+    <P Name="ZOrder">464</P>
+    <P Name="ShowName">off</P>
+    <P Name="Inputs">3</P>
+    <P Name="DisplayOption">bar</P>
+  </Block>
+  <Line>
+    <P Name="ZOrder">271</P>
+    <P Name="Src">289#out:1</P>
+    <P Name="Dst">205#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">273</P>
+    <P Name="Src">288#out:1</P>
+    <P Name="Dst">205#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">272</P>
+    <P Name="Src">290#out:1</P>
+    <P Name="Dst">205#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">244</P>
+    <P Name="Src">205#out:1</P>
+    <P Name="Dst">192#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">274</P>
+    <P Name="Src">292#out:1</P>
+    <P Name="Dst">252#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">276</P>
+    <P Name="Src">291#out:1</P>
+    <P Name="Dst">252#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">275</P>
+    <P Name="Src">293#out:1</P>
+    <P Name="Dst">252#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">257</P>
+    <P Name="Src">252#out:1</P>
+    <P Name="Dst">251#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">279</P>
+    <P Name="Src">295#out:1</P>
+    <P Name="Dst">257#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">277</P>
+    <P Name="Src">294#out:1</P>
+    <P Name="Dst">257#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">278</P>
+    <P Name="Src">296#out:1</P>
+    <P Name="Dst">257#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">261</P>
+    <P Name="Src">257#out:1</P>
+    <P Name="Dst">256#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">269</P>
+    <P Name="Src">286#out:1</P>
+    <P Name="Dst">262#in:2</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">263</P>
+    <P Name="Src">258#out:1</P>
+    <P Name="Dst">262#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">270</P>
+    <P Name="Src">287#out:1</P>
+    <P Name="Dst">262#in:3</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">265</P>
+    <P Name="Src">262#out:1</P>
+    <P Name="Dst">261#in:1</P>
+  </Line>
+</System>

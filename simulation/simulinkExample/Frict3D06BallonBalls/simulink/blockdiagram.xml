@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModelInformation Version="1.0">
+  <Model>
+    <P Name="ModelUUID">c7d8ea46-e41b-4310-adde-b922ec8c2c08</P>
+    <P Name="SLXCompressionType">Normal</P>
+    <P Name="OverrideScopeRefreshTime">off</P>
+    <P Name="CloseFcn">try,close(h1_Frict3D_06_Ball_on_Balls),end
+clear h1_Frict3D_06_Ball_on_Balls
+
+clear logsout_Frict3D_06_Ball_on_Balls
+clear simlog_Frict3D_06_Ball_on_Balls</P>
+    <P Name="StartFcn">tic;</P>
+    <P Name="StopFcn">Elapsed_Sim_Time = toc;
+disp([&apos;Elapsed Sim Time = &apos; num2str(Elapsed_Sim_Time)]);
+</P>
+    <P Name="LastSavedArchitecture">win64</P>
+    <UserParameters>
+      <P Name="PhysicalModelingChecksum">2749681161</P>
+      <P Name="PhysicalModelingParameterChecksum">4118536360</P>
+      <P Name="PhysicalModelingProducts">SimMechanics|Simscape</P>
+    </UserParameters>
+    <ConfigManagerSettings>
+      <P Name="ModifiedByFormat">%&lt;Auto&gt;</P>
+      <P Name="ModifiedDateFormat">%&lt;Auto&gt;</P>
+      <P Name="ModelVersionFormat">%&lt;AutoIncrement:10.0&gt;</P>
+    </ConfigManagerSettings>
+    <EditorSettings>
+      <P Name="ShowLineDimensions">on</P>
+      <P Name="ShowEditTimeWarnings">off</P>
+      <P Name="ScheduleConnectors">off</P>
+      <P Name="MultithreadedSim">on</P>
+    </EditorSettings>
+    <SimulationSettings>
+      <P Name="SimulationMode">normal</P>
+      <Object PropName="DataLoggingOverride" ObjectID="1" ClassName="Simulink.SimulationData.ModelLoggingInfo">
+        <P Name="model_" Class="char">$bdroot</P>
+        <P Name="overrideMode_" Class="uint32">0U</P>
+        <Array PropName="logAsSpecifiedByModels_" Type="Cell" Dimension="1*1">
+          <Cell Class="char">$bdroot</Cell>
+        </Array>
+        <Array PropName="logAsSpecifiedByModelsSSIDs_" Type="Cell" Dimension="1*1">
+          <Cell Class="double">[]</Cell>
+        </Array>
+      </Object>
+    </SimulationSettings>
+    <EngineSettings>
+      <P Name="ConfigurableSubsystemUsage">warning</P>
+    </EngineSettings>
+    <ConcurrentExecutionSettings>
+      <Object PropName="DataTransfer" ObjectID="2" ClassName="Simulink.GlobalDataTransfer">
+        <P Name="DefaultTransitionBetweenSyncTasks" Class="char">Ensure deterministic transfer (maximum delay)</P>
+        <P Name="DefaultTransitionBetweenAsyncTasks" Class="char">Ensure data integrity only</P>
+        <P Name="DefaultTransitionBetweenContTasks" Class="char">Ensure deterministic transfer (minimum delay)</P>
+        <P Name="DefaultExtrapolationMethodBetweenContTasks" Class="char">None</P>
+      </Object>
+    </ConcurrentExecutionSettings>
+    <ModelWorkspace>
+      <P Name="WSDataSource">MATLAB Code</P>
+      <P Name="WSMATLABCode">% All units in meters
+
+upper_ball.rad = 1;
+lower_ball.rad = 0.2;
+lower_ball.spacing = 0.5;
+
+ballInput.mag = 80;
+ballInput.filtconst = 0.4;
+ballInput.period = 2;
+ballInput.common.x = [0 1 0 -1 0 0 0  0 0 0 0  0 0];
+ballInput.common.y = [0 0 0  0 0 1 0 -1 0 0 0  0 0];
+ballInput.common.z = [0 0 0  0 0 0 0  0 0 1 0 -1 0];
+
+ballInput.b1.x = [ballInput.common.x  0 0 0 0];
+ballInput.b1.y = [ballInput.common.y  0 1 0 0];
+ballInput.b2.x = [ballInput.common.x  0 0 0 0];
+ballInput.b2.y = [ballInput.common.y  0 1 0 0];
+ballInput.b3.x = [ballInput.common.x  0 0 0 0];
+ballInput.b3.y = [ballInput.common.y  0 -1 0 0];
+ballInput.b4.x = [ballInput.common.x  0 0 0 0];
+ballInput.b4.y = [ballInput.common.y  0 -1 0 0];
+ballInput.b1.z = [ballInput.common.z    0.5  0.5  0.5 0];
+ballInput.b2.z = [ballInput.common.z   -0.5 -0.5 -0.5 0];
+ballInput.b3.z = [ballInput.common.z    0.5  0.5  0.5 0];
+ballInput.b4.z = [ballInput.common.z   -0.5 -0.5 -0.5 0];
+</P>
+    </ModelWorkspace>
+    <System Ref="system_root"/>
+  </Model>
+</ModelInformation>

@@ -1,0 +1,285 @@
+{
+    "GraphicalInterface":{
+        "ExternalFileReferences":[
+            {
+                "Path":"$bdroot\/B1 in\/Simulink-PS Converter",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"2",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in\/Simulink-PS Converter1",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"199",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in\/Simulink-PS Converter2",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"200",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in1\/Simulink-PS Converter",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"300",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in1\/Simulink-PS Converter1",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"301",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in1\/Simulink-PS Converter2",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"302",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in2\/Simulink-PS Converter",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"309",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in2\/Simulink-PS Converter1",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"310",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in2\/Simulink-PS Converter2",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"311",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in3\/Simulink-PS Converter",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"318",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in3\/Simulink-PS Converter1",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"319",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/B1 in3\/Simulink-PS Converter2",
+                "Reference":"nesl_utility\/Simulink-PS\nConverter",
+                "SID":"320",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball 1",
+                "Reference":"Parts_Lib\/Sphere",
+                "SID":"167",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball 2",
+                "Reference":"Parts_Lib\/Sphere",
+                "SID":"211",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball 3",
+                "Reference":"Parts_Lib\/Sphere",
+                "SID":"214",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball 4",
+                "Reference":"Parts_Lib\/Sphere",
+                "SID":"216",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball X1",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"288",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball X2",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"291",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball X3",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"294",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball X4",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"258",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Y1",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"289",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Y2",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"292",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Y3",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"295",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Y4",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"286",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Z1",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"290",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Z2",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"293",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Z3",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"296",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Ball qx qy qz\/Ball Z4",
+                "Reference":"simulink\/Sources\/Repeating\nSequence\nStair",
+                "SID":"287",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Bushing Joint",
+                "Reference":"sm_lib\/Joints\/Bushing Joint",
+                "SID":"263",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Config\/Mechanism Configuration",
+                "Reference":"sm_lib\/Utilities\/Mechanism\nConfiguration",
+                "SID":"6",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Config\/Solver Configuration",
+                "Reference":"nesl_utility\/Solver\nConfiguration",
+                "SID":"1",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Gimbal Joint Ball 1",
+                "Reference":"sm_lib\/Joints\/Gimbal Joint",
+                "SID":"180",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Gimbal Joint Ball 2",
+                "Reference":"sm_lib\/Joints\/Gimbal Joint",
+                "SID":"185",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Gimbal Joint Ball 3",
+                "Reference":"sm_lib\/Joints\/Gimbal Joint",
+                "SID":"186",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Gimbal Joint Ball 4",
+                "Reference":"sm_lib\/Joints\/Gimbal Joint",
+                "SID":"188",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Sphere to Sphere Ball 1",
+                "Reference":"Contact_Forces_Lib\/3D\/Sphere to Sphere Force",
+                "SID":"278",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Sphere to Sphere Ball 2",
+                "Reference":"Contact_Forces_Lib\/3D\/Sphere to Sphere Force",
+                "SID":"283",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Sphere to Sphere Ball 3",
+                "Reference":"Contact_Forces_Lib\/3D\/Sphere to Sphere Force",
+                "SID":"284",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Sphere to Sphere Ball 4",
+                "Reference":"Contact_Forces_Lib\/3D\/Sphere to Sphere Force",
+                "SID":"285",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Transform Ball 1",
+                "Reference":"sm_lib\/Frames and\nTransforms\/Rigid\nTransform",
+                "SID":"182",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Transform Ball 2",
+                "Reference":"sm_lib\/Frames and\nTransforms\/Rigid\nTransform",
+                "SID":"183",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Transform Ball 3",
+                "Reference":"sm_lib\/Frames and\nTransforms\/Rigid\nTransform",
+                "SID":"187",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Transform Ball 4",
+                "Reference":"sm_lib\/Frames and\nTransforms\/Rigid\nTransform",
+                "SID":"189",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Transform Upper Ball",
+                "Reference":"sm_lib\/Frames and\nTransforms\/Rigid\nTransform",
+                "SID":"266",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/Upper Ball",
+                "Reference":"Parts_Lib\/Sphere",
+                "SID":"279",
+                "Type":"LIBRARY_BLOCK"
+            },
+            {
+                "Path":"$bdroot\/World Frame",
+                "Reference":"sm_lib\/Frames and\nTransforms\/World Frame",
+                "SID":"5",
+                "Type":"LIBRARY_BLOCK"
+            }
+        ],
+        "PreCompExecutionDomainType":"Unset",
+        "SimulinkSubDomainType":"Simulink",
+        "SolverName":"ode23t"
+    }
+}

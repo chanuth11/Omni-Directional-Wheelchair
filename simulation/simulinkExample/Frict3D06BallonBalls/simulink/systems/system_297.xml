@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<System>
+  <P Name="Location">[22, 21, 681, 735]</P>
+  <Block BlockType="Demux" Name="Demux" SID="298">
+    <PortCounts in="1" out="3"/>
+    <P Name="Position">[115, 21, 120, 149]</P>
+    <P Name="ZOrder">437</P>
+    <P Name="ShowName">off</P>
+    <P Name="Outputs">3</P>
+  </Block>
+  <Block BlockType="From" Name="From" SID="299">
+    <P Name="Position">[20, 75, 95, 95]</P>
+    <P Name="ZOrder">436</P>
+    <P Name="ShowName">off</P>
+    <P Name="GotoTag">Ball2xyz</P>
+    <P Name="TagVisibility">global</P>
+  </Block>
+  <Block BlockType="Reference" Name="Simulink-PS&#xA;Converter" SID="300">
+    <PortCounts in="1" rconn="1"/>
+    <P Name="Position">[155, 37, 170, 53]</P>
+    <P Name="ZOrder">5</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">7.0</P>
+    <P Name="FontSize">9</P>
+    <P Name="SourceBlock">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="SourceType">Simulink-PS
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_input</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="NoiseDistribution">none</P>
+      <P Name="NoiseParameters">[]</P>
+      <P Name="Unit">deg</P>
+      <P Name="AffineConversion">off</P>
+      <P Name="FilteringAndDerivatives">filter</P>
+      <P Name="SimscapeFilterOrder">2</P>
+      <P Name="InputFilterTimeConstant">0.005</P>
+      <P Name="UdotUserProvided">1</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Simulink-PS&#xA;Converter1" SID="301">
+    <PortCounts in="1" rconn="1"/>
+    <P Name="Position">[155, 77, 170, 93]</P>
+    <P Name="ZOrder">442</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">7.0</P>
+    <P Name="FontSize">9</P>
+    <P Name="SourceBlock">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="SourceType">Simulink-PS
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_input</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="NoiseDistribution">none</P>
+      <P Name="NoiseParameters">[]</P>
+      <P Name="Unit">deg</P>
+      <P Name="AffineConversion">off</P>
+      <P Name="FilteringAndDerivatives">filter</P>
+      <P Name="SimscapeFilterOrder">2</P>
+      <P Name="InputFilterTimeConstant">0.005</P>
+      <P Name="UdotUserProvided">1</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="Reference" Name="Simulink-PS&#xA;Converter2" SID="302">
+    <PortCounts in="1" rconn="1"/>
+    <P Name="Position">[155, 117, 170, 133]</P>
+    <P Name="ZOrder">443</P>
+    <P Name="ShowName">off</P>
+    <P Name="LibraryVersion">7.0</P>
+    <P Name="FontSize">9</P>
+    <P Name="SourceBlock">nesl_utility/Simulink-PS
+Converter</P>
+    <P Name="SourceType">Simulink-PS
+Converter</P>
+    <InstanceData>
+      <P Name="RTWMemSecFuncInitTerm">Inherit from model</P>
+      <P Name="RTWMemSecFuncExecute">Inherit from model</P>
+      <P Name="RTWMemSecDataConstants">Inherit from model</P>
+      <P Name="RTWMemSecDataInternal">Inherit from model</P>
+      <P Name="RTWMemSecDataParameters">Inherit from model</P>
+      <P Name="ContentPreviewEnabled">off</P>
+      <P Name="PhysicalDomain">network_engine_domain</P>
+      <P Name="SubClassName">ps_input</P>
+      <P Name="LeftPortType">input</P>
+      <P Name="RightPortType">output</P>
+      <P Name="PseudoPeriodic">off</P>
+      <P Name="Frequencies">[]</P>
+      <P Name="NoiseDistribution">none</P>
+      <P Name="NoiseParameters">[]</P>
+      <P Name="Unit">deg</P>
+      <P Name="AffineConversion">off</P>
+      <P Name="FilteringAndDerivatives">filter</P>
+      <P Name="SimscapeFilterOrder">2</P>
+      <P Name="InputFilterTimeConstant">0.005</P>
+      <P Name="UdotUserProvided">1</P>
+    </InstanceData>
+  </Block>
+  <Block BlockType="PMIOPort" Name="qx" SID="303">
+    <P Name="Position">[210, 38, 240, 52]</P>
+    <P Name="ZOrder">444</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="qy" SID="304">
+    <P Name="Position">[210, 78, 240, 92]</P>
+    <P Name="ZOrder">445</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Port">2</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Block BlockType="PMIOPort" Name="qz" SID="305">
+    <P Name="Position">[210, 118, 240, 132]</P>
+    <P Name="ZOrder">446</P>
+    <P Name="BlockMirror">on</P>
+    <P Name="Port">3</P>
+    <P Name="Side">Right</P>
+  </Block>
+  <Line LineType="Connection">
+    <P Name="ZOrder">1</P>
+    <P Name="Src">302#rconn:1</P>
+    <P Name="Dst">305#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">2</P>
+    <P Name="Src">301#rconn:1</P>
+    <P Name="Dst">304#rconn:1</P>
+  </Line>
+  <Line LineType="Connection">
+    <P Name="ZOrder">3</P>
+    <P Name="Src">300#rconn:1</P>
+    <P Name="Dst">303#rconn:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">4</P>
+    <P Name="Src">298#out:2</P>
+    <P Name="Dst">301#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">5</P>
+    <P Name="Src">299#out:1</P>
+    <P Name="Dst">298#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">6</P>
+    <P Name="Src">298#out:1</P>
+    <P Name="Dst">300#in:1</P>
+  </Line>
+  <Line>
+    <P Name="ZOrder">7</P>
+    <P Name="Src">298#out:3</P>
+    <P Name="Dst">302#in:1</P>
+  </Line>
+</System>

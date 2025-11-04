@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" defaultPackage="slid" packageUris="http://schema.mathworks.com/mf0/slid/R2023a_20220628">
+  <System type="System" uuid="62352718-9d04-49f8-a808-884251af2682">
+    <Parameter type="Parameter" uuid="909b7744-ab1f-48ff-9840-87970f6b2de6">
+      <Identifier>ballInput</Identifier>
+      <Name>ballInput</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="9170ea5a-ce0a-4fb6-b4d3-46cf63fbd50c">
+      <Identifier>lower_ball</Identifier>
+      <Name>lower_ball</Name>
+    </Parameter>
+    <Parameter type="Parameter" uuid="21356d22-7857-410f-ace5-06775f6ff995">
+      <Identifier>upper_ball</Identifier>
+      <Name>upper_ball</Name>
+    </Parameter>
+    <Interface type="Interface" uuid="309c2d2e-2536-4d53-9757-a71eeae52fdc"/>
+  </System>
+</MF0>

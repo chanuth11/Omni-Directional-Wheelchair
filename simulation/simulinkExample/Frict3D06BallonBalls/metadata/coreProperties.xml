@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cp:category>model</cp:category>
+  <dcterms:created xsi:type="dcterms:W3CDTF">2014-08-14T20:45:44Z</dcterms:created>
+  <dc:creator>smiller</dc:creator>
+  <dc:description>Ball on Balls (3D)
+
+Copyright 2015-2024 The MathWorks, Inc.
+</dc:description>
+  <cp:lastModifiedBy>smiller</cp:lastModifiedBy>
+  <dcterms:modified xsi:type="dcterms:W3CDTF">2024-09-12T05:42:29Z</dcterms:modified>
+  <cp:revision>10.0</cp:revision>
+  <cp:version>R2024b</cp:version>
+</cp:coreProperties>
