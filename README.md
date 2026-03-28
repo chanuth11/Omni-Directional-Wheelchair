@@ -8,6 +8,5 @@
 
 - [Project Plan](docs/ProjectPlan.md) - Detailed timeline and phase descriptions
 - [Patents & Alternate Solutions](docs/3%20patentsand%20alternate%20solutions.md) - Research and prior art
-- [Course Outline](courseContent/CourseOutline.md) - MTE 481 course information
-- [GitHub Repository](https://github.com/clutxh11/CapstoneGroup52.git)
+
 
