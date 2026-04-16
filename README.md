@@ -7,6 +7,5 @@
 ## 🔗 Quick Links
 
 - [Project Plan](docs/ProjectPlan.md) - Detailed timeline and phase descriptions
-- [Patents & Alternate Solutions](docs/3%20patentsand%20alternate%20solutions.md) - Research and prior art
-
+- Progress: https://photos.app.goo.gl/qiQZF7ojyn6gcheL8
 
